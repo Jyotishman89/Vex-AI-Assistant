@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vex AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hero" id="hero">
+    <nav>
+      <h2 class="logo">VEX_<span>AI</span></h2>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#docs" class="nav-link">Docs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="right-nav">
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+        <button id="launch-btn" class="btn">Launch</button>
+      </div>
+    </nav>
+
+    <!-- Command Area -->
+    <div class="command-area" id="home">
+      <div class="command-box">
+        <input id="cmd-input" placeholder="Type command...">
+        <button id="send-btn" class="btn">Send</button>
+      </div>
+      <div id="reply"></div>
+    </div>
+
+    <section class="content">
+      <h1>Do better with <span>Vex</span></h1>
+      <p class="subtext">
+        The all-in-one platform to manage projects, automate tasks, and enhance productivity —
+        powered by intelligent AI assistance.
+      </p>
+      <button id="start-chat-btn" class="cta">Start Chatting</button>
+    </section>
+  </div>
+
+  <!-- FEATURES Section -->
+  <section id="features" class="section">
+    <h2>Features</h2>
+    <ul class="feature-list">
+      <li>📝 Text Command Recognition</li>
+      <li>🌐 Open websites, apps, and perform daily PC tasks</li>
+      <li>🧠 AI answers + general knowledge via Wikipedia</li>
+      <li>📅 Tell time and date dynamically</li>
+    </ul>
+  </section>
+
+  <!-- DOCS Section -->
+  <section id="docs" class="section">
+    <h2>Docs</h2>
+    <p>
+      Learn how Vex works behind the scenes — built using Flask, Python, and a modern front-end stack.
+      The project is open-source and customizable.
+    </p>
+  </section>
+
+  <!-- CONTACT Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>💬 Created by <strong>Jyotishman Borah</strong> — feel free to connect!</p>
+    <p>
+      <a href="https://github.com" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Vex AI Assistant — Designed by Jyotishman Borah
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
