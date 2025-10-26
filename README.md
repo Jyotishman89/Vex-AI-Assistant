@@ -9,7 +9,7 @@ A Flask-powered AI assistant that can process text/voice commands, open apps and
 ---
 
 ## Features (In Progress)
--  Text input (As of now, the Voice input is not integrated)
+-  Voice and text input (As of now, the Voice input gets activated upon launch)
 -  Opens websites like YouTube, LinkedIn, GitHub
 -  Answers GK questions via AI/Wikipedia (basic)
 -  Light/Dark theme toggle (working)
