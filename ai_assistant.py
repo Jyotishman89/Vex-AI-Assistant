@@ -1,26 +1,3 @@
-"""
-ai_assistant.py
-
-Enhanced Vex assistant core.
-
-Public API:
-- process_command_return(text:str) -> str
-    Use from a web UI or any caller that expects a string reply.
-    Non-interactive: destructive actions (shutdown/delete) require explicit confirmation phrase.
-
-- process_command(text:str) -> None
-    Interactive/CLI or voice use: speaks via TTS (if available) and will prompt for confirmation
-    for destructive operations when running as an interactive session.
-
-CONFIG:
-- Configure endpoints, confirmation tokens, feature flags in CONFIG below.
-
-Security & Safety:
-- Dangerous actions (shutdown, restart, delete) require explicit confirmation.
-- AI endpoint and keys are configurable via env vars.
-- This module will attempt to import optional libs and degrade gracefully if missing.
-"""
-
 import os
 import re
 import sys
