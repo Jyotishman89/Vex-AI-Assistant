@@ -66,6 +66,8 @@ def process_command_return(text: str) -> str:
         return open_website("https://github.com")
     if "open linkedin" in c:
         return open_website("https://linkedin.com")
+    if "open chatgpt" in c:
+        return open_website("https://chatgpt.com")
 
     if c.startswith("play "):
         song = c.replace("play", "").strip()
